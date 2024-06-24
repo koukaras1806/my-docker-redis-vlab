@@ -7,13 +7,6 @@
 Το εργαστήριο έχει σχεδιαστεί για να παρέχει έναν εύκολο τρόπο ανάπτυξης
 και δοκιμής του Redis σε απομονωμένο περιβάλλον.
 
-## Τι είναι το Redis;
-
-Το Redis (Remote Dictionary Server) είναι ένα ανοιχτού κώδικα, in-memory data structure store,
-το οποίο χρησιμοποιείται ως βάση δεδομένων, cache και message broker. 
-Δημιουργήθηκε από τον Salvatore Sanfilippo και υποστηρίζει διάφορες δομές δεδομένων,
-όπως strings, lists, sets, sorted sets, hashes, bitmaps, hyperloglogs, και geospatial indexes με ακρίβεια ακτίνας.
-
 ### Βασικά Χαρακτηριστικά του Redis
 
 - **In-Memory Storage**: Το Redis αποθηκεύει όλα τα δεδομένα στη μνήμη RAM, πράγμα που το καθιστά εξαιρετικά γρήγορο, 
