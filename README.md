@@ -45,16 +45,19 @@
 
 2. **Κατασκευή της Docker εικόνας**:
 
-sudo docker build -t my-redis .
+docker build -t my-redis .
 
 3. **Εκτέλεση του Docker container**:
 
 sudo docker run -d -p 6379:6379 my-redis
 
+
 4. **Επιβεβαίωση ότι το container εκτελείται**:
 
-sudo docker ps
+docker ps
 
 5. **Σύνδεση στο Redis**:
 
-sudo docker exec -it 07a76e6a29d2 redis-cli
+docker exec -it 07a76e6a29d2 redis-cli
+redis -cli -h 127.0.0.1 -p 6379
+
